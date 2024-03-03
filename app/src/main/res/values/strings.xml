@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Milk Records</string>
+
+    <string-array name="spin">
+        <item>ADMIN</item>
+        <item>USER</item>
+    </string-array>
+
+    <string-array name="spin1">
+        <item>CS</item>
+        <item>IT</item>
+        <item>MCA</item>
+        <item>EC</item>
+    </string-array>
+    <string-array name="spin2">
+        <item>First</item>
+        <item>Second</item>
+        <item>Third</item>
+        <item>Fourth</item>
+    </string-array>
+    <string-array name="spin3">
+        <item>C</item>
+        <item>C++</item>
+        <item>JAVA</item>
+        <item>DS</item>
+        <item>Python</item>
+        <item>PHP</item>
+    </string-array>
+    <string-array name="sonika">
+        <item>green</item>
+        <item>pink</item>
+        <item>yellow</item>
+    </string-array>
+</resources>
