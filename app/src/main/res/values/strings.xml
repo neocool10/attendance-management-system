@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Milk Records</string>
+    <string name="app_name">Attendance Management System</string>
 
     <string-array name="spin">
         <item>ADMIN</item>

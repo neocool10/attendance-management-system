@@ -36,12 +36,12 @@ public class MainActivity2 extends AppCompatActivity {
         String user = e1.getText().toString();
         String pass = e2.getText().toString();
 
-        if (TextUtils.isEmpty(pass)) {
+        if (TextUtils.isEmpty(user)) {
             e1.setError("Invalid User Name");
         } else if (TextUtils.isEmpty(pass)) {
             e2.setError("enter password");
         }
-        if (s.equals("admin")) {
+        if (s.equals("ADMIN")) {
             if (user.equals("admin") && pass.equals("123")) {
                 Intent i = new Intent(this, Admin.class);
                 SharedPreferences.Editor editor = sharedpreferences.edit();
